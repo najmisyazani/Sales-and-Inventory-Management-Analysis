@@ -1,10 +1,10 @@
-## Project Summary:
+## Project Objective:
 The project aims to develop an end-to-end pipeline for analyzing sales and inventory data, enabling stakeholders to make informed decisions that enhance operational efficiency, profitability, and customer satisfaction. The pipeline will load and transform various sales and inventory datasets into a SQL database, allowing for comprehensive querying to identify trends and patterns, ultimately deriving meaningful insights that drive strategic actions.
 
 ![Pipeline Overview](https://github.com/najmisyazani/Sales-and-Inventory-Management-Analysis/blob/main/Overview%20of%20Data%20Pipeline.png)
 _Overview of the Data Pipeline_
 
-### Technical Details:
+## Technical Details:
 - Engineered a robust data pipeline as measured by successfully extracting and processing 9,994 retail order records from a CSV file, transforming the data using Python libraries including pandas and sqlalchemy, and loading it into SQL Server with 100% data integrity.
 - Enhanced data quality and analytical potential by deriving 3 new features ('discount', 'sale_price', and 'profit') from existing fields, as measured by the creation of calculated columns using Python, enabling more comprehensive financial analysis.
 - Identified top 10 revenue-generating products across 4 regions by implementing complex SQL queries utilizing Common Table Expressions (CTEs) and window functions, resulting in actionable insights for inventory management and regional sales strategies.
